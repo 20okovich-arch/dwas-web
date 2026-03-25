@@ -2,6 +2,10 @@
 // DWAS — script.js
 // ===========================
 
+// Import and initialize Vercel Speed Insights
+import { injectSpeedInsights } from '@vercel/speed-insights';
+injectSpeedInsights();
+
 // ----- NAV TOGGLE (mobile) -----
 const navToggle = document.getElementById('navToggle');
 const mainNav   = document.getElementById('mainNav');
